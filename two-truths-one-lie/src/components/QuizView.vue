@@ -9,7 +9,7 @@
   <!-- Suspects Name -->
   <div class="container">
     <div class="question-mark mt-5 mb-1">?</div>
-    <h3>{{ questions[currentQuestion].name }}</h3>
+    <h3>Guess the lie about {{ questions[currentQuestion].name }}</h3>
   </div>
 
   <!-- Facts -->
@@ -189,10 +189,10 @@ export default {
   background-color: #d3ecf0;
 }
 .green {
-  background-color: #64cc64;
+  background-color: #abd7ab;
 }
 .red {
-  background-color: #ef7c7c;
+  background-color: #eca4a4;
 }
 
 /* shake answer */
